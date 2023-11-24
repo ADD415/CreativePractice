@@ -1,0 +1,309 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6586933808422567719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6586933808422567713}
+  - component: {fileID: 1906126973}
+  - component: {fileID: 1906126964}
+  - component: {fileID: 1906126965}
+  - component: {fileID: 1906126969}
+  - component: {fileID: 1906126975}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Manager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6586933808422567713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6586933808422567719}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.588722, y: 1.0735037, z: 3.3527703}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1906126973
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6586933808422567719}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9f125478eff24434a9f206437f418e45, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.09
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1906126964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6586933808422567719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8e05ee3a56b5004299c3fe123ef335d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blackFade: {fileID: 0}
+  toBlack: 0
+  screenBlack: 0
+  mainCamera: {fileID: 0}
+  interrogationCam: {fileID: 0}
+  currentCam: {fileID: 0}
+  interrogationActive: 0
+  noirFilter: {fileID: 0}
+  activeInterrogant: {fileID: 0}
+  interrogationManager: {fileID: 0}
+  femmeIntObject: {fileID: 0}
+  juiceIntObject: {fileID: 0}
+  goonIntObject: {fileID: 0}
+  coolIntObject: {fileID: 0}
+--- !u!114 &1906126965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6586933808422567719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01ead719337c73f4aa2c6605b7dbfa1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainScene: {fileID: 0}
+  manager: {fileID: 0}
+  blackFade: {fileID: 0}
+  endingReady: 0
+  dialogueActive: 0
+  scarletEnd: {fileID: 0}
+  eddieEnd: {fileID: 0}
+  juiceBoxEnd: {fileID: 0}
+  drewEnd: {fileID: 0}
+  chaseEnd: {fileID: 0}
+  graceEnd: {fileID: 0}
+  scarletMain: {fileID: 0}
+  eddieMain: {fileID: 0}
+  juiceBoxMain: {fileID: 0}
+  drewMain: {fileID: 0}
+  chaseMain: {fileID: 0}
+  graceMain: {fileID: 0}
+  eddie: {fileID: 0}
+  chase: {fileID: 0}
+  juicebox: {fileID: 0}
+  grace: {fileID: 0}
+  scarlet: {fileID: 0}
+  tempText: {fileID: 0}
+  endingText: {fileID: 0}
+  hintMessage: {fileID: 0}
+  trueEndingText: {fileID: 0}
+  goodEndingText: {fileID: 0}
+  badEndingText: {fileID: 0}
+  eddieCam: {fileID: 0}
+  scarletCam: {fileID: 0}
+  chaseCam: {fileID: 0}
+  juiceBoxCam: {fileID: 0}
+  drewCam: {fileID: 0}
+  graceCam: {fileID: 0}
+  suspectSelectionCam: {fileID: 0}
+  goodEndingCam: {fileID: 0}
+  badEndingCam: {fileID: 0}
+  trueEndingCam: {fileID: 0}
+--- !u!114 &1906126969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6586933808422567719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 048e36bac73b2a44dacb36716fcfcb63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueZone: {fileID: 0}
+  briberyOption: {fileID: 0}
+  briberyPanel: {fileID: 0}
+  repGainSprite: {fileID: 0}
+  repLossSprite: {fileID: 0}
+  item1: {fileID: 0}
+  item2: {fileID: 0}
+  singleBribe: {fileID: 0}
+  playerFirstResponse: {fileID: 0}
+  playerSecondResponse: {fileID: 0}
+  playerThirdResponse: {fileID: 0}
+  playerFirstResponseBox: {fileID: 0}
+  playerSecondResponseBox: {fileID: 0}
+  playerThirdResponseBox: {fileID: 0}
+  playerResponse1: {fileID: 0}
+  playerResponse2: {fileID: 0}
+  playerResponse3: {fileID: 0}
+  playerResponse4: {fileID: 0}
+  npcNameArea: {fileID: 0}
+  npcSprite1: {fileID: 0}
+  npcSprite2: {fileID: 0}
+  npcSprite3: {fileID: 0}
+  npcSprite4: {fileID: 0}
+  npcStatement: {fileID: 0}
+  npcStatement2: {fileID: 0}
+  npcStatement3: {fileID: 0}
+  npcStatement4: {fileID: 0}
+  scarlet: {fileID: 0}
+  juiceBox: {fileID: 0}
+  eddie: {fileID: 0}
+  chase: {fileID: 0}
+  playerAudio: {fileID: 0}
+  repLossSound: {fileID: 8300000, guid: d97aa4c972505914191e36449d736f9f, type: 3}
+  repGainSound: {fileID: 8300000, guid: 2aa3a4a3d52cd4b41b6a98b2e43bca9e, type: 3}
+  selectOptionSound: {fileID: 8300000, guid: 44de8249aaeed0b4d92acd110382722e, type: 3}
+  changeOptionSound: {fileID: 8300000, guid: b5f1e127004c032448f974bc9d73a127, type: 3}
+  passOutfitCheckSound: {fileID: 8300000, guid: b27d4637cc06d7a4cbb5a395c593330c, type: 3}
+  relationship: 0
+  gainingRep: 0
+  losingRep: 0
+  repLockResponse1: {fileID: 0}
+  repLockResponse2: {fileID: 0}
+  repLockResponse3: {fileID: 0}
+  pos: 0
+  inConvo: 0
+  activeNode: {fileID: 0}
+  activeNPC: {fileID: 0}
+  trueEndingReached: 0
+  goodEndingReached: 0
+  badEndingReached: 0
+  dressUpBox: {fileID: 0}
+  currentNPCCam: {fileID: 0}
+  playerCam: {fileID: 0}
+  player: {fileID: 0}
+  inventoryManager: {fileID: 0}
+  unselectedColour: {r: 0.92549026, g: 0.8000001, b: 0.6313726, a: 0}
+  selectedColour: {r: 1, g: 0.88550174, b: 0, a: 0}
+  manager: {fileID: 0}
+  repManager: {fileID: 0}
+  pinBoardManager: {fileID: 0}
+--- !u!114 &1906126975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6586933808422567719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 405f0abc32c93534d96c93c11a2f76ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  introTextBox: {fileID: 0}
+  introTextBox2: {fileID: 0}
+  dialoguePanel1: {fileID: 0}
+  dialoguePanel2: {fileID: 0}
+  initialCam: {fileID: 0}
+  eddieCam: {fileID: 0}
+  juiceBoxCam: {fileID: 0}
+  scarletCam: {fileID: 0}
+  chaseCam: {fileID: 0}
+  mainGameCam: {fileID: 0}
+  manager: {fileID: 6586933808422567719}
+  player: {fileID: 0}
+  inIntro: 1
+  introCam: {fileID: 0}
+  introMusic: {fileID: 0}

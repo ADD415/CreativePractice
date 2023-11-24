@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Manager
+  - Camera
+  - Item
+  - Inventory
+  - PinboardUI
+  - RelationshipOptions
+  - InventoryUI
+  - GraceSlot
+  - EddieSlot
+  - ScarletSlot
+  - JuiceBoxSlot
+  - IntroCam
+  - TestText
+  - Evidence Panel
+  - ChaseSlot
+  - Evidence Tooltip
+  - IgnoreCameraCollision
+  - PinBoard Manager
+  - Evidence Item
+  - Fingerprint
+  - InterrogationManager
+  - Dress Up Manager
+  - TutorialManager
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - PP Layer
+  - Water
+  - UI
+  - Blur
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

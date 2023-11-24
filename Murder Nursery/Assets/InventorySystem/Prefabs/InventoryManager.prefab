@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5082937854988416729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5082937854988416735}
+  - component: {fileID: 5082937854988416734}
+  - component: {fileID: 5082937854988416732}
+  m_Layer: 0
+  m_Name: InventoryManager
+  m_TagString: Inventory
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5082937854988416735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082937854988416729}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5082937854988416734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082937854988416729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 322f4cb32f42d714fb894ecc61558492, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MG: {fileID: 0}
+  Player: {fileID: 0}
+  pinboard: {fileID: 11400000, guid: e25df1ccd6fd9924fb7a3ac3fdbf9788, type: 2}
+  jotter: {fileID: 11400000, guid: ea3ba1a3a52c62e43aea6577cdc13b84, type: 2}
+  mGlass: {fileID: 11400000, guid: f4cbd755360bd8d4195d929f32475713, type: 2}
+  listeningDevice: {fileID: 11400000, guid: b23956f963620314fb2462dacbd91226, type: 2}
+  UIVisibility: {fileID: 0}
+  items: []
+  itemContent: {fileID: 0}
+  inventoryItem: {fileID: 3587967216808037018, guid: 935e191c5e19d684f84a66fee5ba00ab, type: 3}
+  inventoryItems: []
+  blur: {fileID: 0}
+  itemTooltip: {fileID: 0}
+--- !u!114 &5082937854988416732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082937854988416729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b70dfd1b1d5c3543b123201b3a3a4fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryUI: {fileID: 0}
+  jotterUI: {fileID: 0}
+  pinboardUI: {fileID: 0}
+  evidenceJotter: {fileID: 0}
+  inventoryOpen: 0
+  pinboardOpen: 0
+  jotterOpen: 0
+  playerAudioSource: {fileID: 0}
+  openInventorySound: {fileID: 8300000, guid: 72589927e61e86144aa7f126cb1cfaf5, type: 3}
+  openPinBoardSound: {fileID: 8300000, guid: 33128f6526b39774b998ea5b4e3b1f69, type: 3}
+  openJotterSound: {fileID: 8300000, guid: f13617938ed1647428530bc6172b93fc, type: 3}
+  blur: {fileID: 0}
+  interrogationManager: {fileID: 0}
+  interrogationUI: {fileID: 0}
