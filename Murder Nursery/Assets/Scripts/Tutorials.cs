@@ -134,20 +134,34 @@ public class Tutorials : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        inTutorial = true;
-        inISTutorial1 = true;
-        //dialogueManager = GameObject.FindGameObjectWithTag("Manager");
-        dialogueManager.GetComponent<DialogueManager>().StartConversation(tutorialGrace.GetComponent<NPCDialogue>().dialogueTree[0], tutorialGrace, graceCam1);
-        tutorialGrace.GetComponent<NPCDialogue>().inConversation = true;
+        pinboardCloseButton.SetActive(true);
+        mGlassTutorial5 = false;
+      
+            StartCoroutine(BlackTransition(graceCam1.gameObject, introCam.gameObject));
+            StartCoroutine(WaitForSeconds());
+        
+        // player.GetComponent<Animator>().StopPlayback();
+        player.transform.position = drewStartPos;
+        player.transform.rotation = new Quaternion(0, 0, 0, 0);
+        //  player.GetComponent<Animator>().StartPlayback();
+
+        ld1.SetActive(true);
+        ld2.SetActive(true);
+        ld3.SetActive(true);
+        tutorialLD.SetActive(false);
+        tutorialJuiceBox.SetActive(false);
+        notebookExitSlip.SetActive(true);
+        fi1.SetActive(true);
+        fi2.SetActive(true);
+        fi3.SetActive(true);
+        fi4.SetActive(true);
+        fi5.SetActive(true);
+        fi6.SetActive(true);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(!inTutorial && tutorialGrace.activeInHierarchy)
-        {
-            tutorialGrace.SetActive(false);
-        }
         
       //  if(ld2.activeInHierarchy && inLDTutorial)
        // {
