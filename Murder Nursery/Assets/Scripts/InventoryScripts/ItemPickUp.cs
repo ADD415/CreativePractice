@@ -11,7 +11,7 @@ public class ItemPickUp : MonoBehaviour
     public GameObject magGlass;
     public GameObject TM; // tutorial manager
 
-    private bool canPickUp;
+    public bool canPickUp;
 
     // adds the item ui to the inventory & destroys its gameObject
     void PickUp()
